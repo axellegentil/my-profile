@@ -1,0 +1,147 @@
+/* Colors and fonts */
+
+body{
+    background-color: #f1f1f1;
+    color: rdg(30, 30, 30);
+    font-family: 'Amiri', serif;;
+    font-weight: lighter;
+    font-size: 17px;
+
+}
+h1, h2, h3 {
+    font-family: 'Zen Antique Soft', sans-serif;
+}
+h1 {
+    color: #02008bc9;
+    font-size: 40px;
+    line-height: 1.6;
+    font-weight: strong;
+    letter-spacing: 5px;  
+}
+h2   {
+    color: #40304e;
+    font-weight: regular;
+    font-size: 32px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: 'Zen Antique Soft', sans-serif;
+    color :#02008bc9 ;
+    font-weight: bold;
+    font-size: 18px;
+}
+a:hover {
+    color : #f0eff4;
+}
+
+
+
+/* Custom design with class */
+
+.container {
+    width:  700px;
+    margin:  40px auto;
+    text-align: center;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+    background-color: white;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 1.0);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+
+.card-white p {
+ text-align: justify;
+ margin-bottom: 40px;
+}
+
+.card-white-bottom {
+    background-color: white;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 1.0);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+
+.img-circle { 
+    border-radius: 50%;
+}
+
+.shadowed { 
+    box-shadow: 5px 5px 3px rgba(0, 0,0, 0.3);
+}
+
+.btn-blue {
+    background-color: #02008bc9;
+    color : white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover {
+    background-color: black ;
+    color: white;
+}
+
+.list-inline {
+    list-style:  none;
+    padding-left:  0px;
+}
+
+.list-inline li {
+    display : inline;
+    padding : 10px
+}
+
+.list-inline i {
+    font-size: 50px;
+    color : rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+    font-size: 50px;
+    color : #02008bc9;
+}
+
+/* Design adjustments using id */
+#introduction p {
+ margin-bottom: 40px;
+}
+
+
+
+
+
+
